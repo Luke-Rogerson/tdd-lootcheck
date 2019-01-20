@@ -6,6 +6,7 @@ export default class App extends Component {
     return (
       <div>
         <h1>Loot Check</h1>
+        <hr />
         <Wallet />
       </div>
     );
