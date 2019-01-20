@@ -9,6 +9,6 @@ describe('Wallet', () => {
     expect(wrapper).toMatchSnapshot();
   });
   it('displays the balance from props', () => {
-    expect(wrapper.find('.balance').text()).toEqual('Wallet balance: 20u');
+    expect(wrapper.find('.balance').text()).toEqual('Wallet balance: 20');
   });
 });
