@@ -216,6 +216,7 @@ ShallowWrapper {
         },
       },
     },
+    "disableLifecycleMethods": true,
   },
 }
 `;
